@@ -1,4 +1,4 @@
-🎓 Student Exam Score Predictor:
+#🎓 Student Exam Score Predictor:
 
 This project is a machine learning web application built using Python and Streamlit that predicts a student's final exam score (G3) based on key academic and behavioral features such as:
 
@@ -10,7 +10,7 @@ First period grade (G1)
 
 Second period grade (G2)
 
-📂 Dataset:
+#📂 Dataset:
 
 The project uses two datasets from the UCI Student Performance Data Set:
 
@@ -19,7 +19,7 @@ student-mat.csv: Data related to Mathematics performance
 student-por.csv: Data related to Portuguese performance
 
 
-🧠 Model
+#🧠 Model
 Algorithm: Random Forest Regressor
 
 Training Features: studytime, absences, G1, G2
@@ -34,7 +34,7 @@ Root Mean Squared Error (RMSE)
 
 Mean Absolute Error (MAE)
 
-🧾 Web Application
+#🧾 Web Application
 The app provides:
 
 User Input: Via sidebar sliders for entering student-specific data
@@ -45,7 +45,7 @@ Real-Time Insights: How the input values compare with dataset averages and impac
 
 Feature Importance Chart: Visual representation of which factors influenced the prediction
 
-🔧 Technologies Used
+#🔧 Technologies Used
 Python
 
 Streamlit
@@ -59,14 +59,14 @@ Seaborn & Matplotlib
 R (for data merging)
 
 
-📌 Educational Use
+#📌 Educational Use
 
 This tool helps educators and students understand how study habits, attendance, and prior performance affect final exam scores. It can be used to detect at-risk students early and plan targeted interventions.
 
 
 
 
- 📋 Instructions to Run the Application
+# 📋 Instructions to Run the Application
 
  ✅ Step 1: Install Required Python Packages
 
