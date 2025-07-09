@@ -30,6 +30,11 @@ python model.py
 ```bash
 streamlit run app.py
 ```
+<img width="457" alt="image" src="https://github.com/user-attachments/assets/63790e2f-1961-4bf3-82d1-d5cc02bb45ab" />
+<img width="460" alt="image" src="https://github.com/user-attachments/assets/b36f326d-36e9-4115-874c-cf24b4b5fe04" />
+<img width="414" alt="image" src="https://github.com/user-attachments/assets/fbf9c952-6085-4542-9d40-5d2d17b32048" />
+<img width="414" alt="image" src="https://github.com/user-attachments/assets/a90ccd39-d6ac-4e66-a3b5-8a4d178c3514" />
+
 
 ---
 
@@ -39,16 +44,6 @@ The project uses two datasets from the UCI Student Performance Data Set:
 
 - `student-mat.csv`: Data related to Mathematics performance  
 - `student-por.csv`: Data related to Portuguese performance
-
-These datasets were merged using shared student identifiers with R:
-
-```r
-d3 = merge(d1, d2, by = c("school", "sex", "age", "address", "famsize", 
-                          "Pstatus", "Medu", "Fedu", "Mjob", "Fjob", 
-                          "reason", "nursery", "internet"))
-```
-
-This resulted in a refined dataset of 382 unique students with combined records.
 
 ---
 
@@ -74,27 +69,18 @@ This resulted in a refined dataset of 382 unique students with combined records.
 
 ---
 
-## 🧰 Technologies Used
+## 🧰 Tech Stack 
 
-- Python  
+- Python
+- R (for data merging)
 - Streamlit  
 - Scikit-learn  
 - Pandas  
 - Seaborn & Matplotlib  
-- R (for data merging)
+
 
 ---
 
-## 🚀 Getting Started
-
-To run the app locally:
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
----
 
 ## 📌 Educational Use
 
